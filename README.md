@@ -1,6 +1,8 @@
 # iBlog
 基于 Node.js 的开源个人博客系统，现代化的 UI 和用户体验。支持桌面端和移动端访问，支持深色模式，支持 [Docker](https://www.docker.com/) 部署。  
 **不仅仅是博客，更是 Demo**，是适合新人入门学习的完整项目。
+- 本fork项目会不断加入自己的理解，欢迎了解
+- 准备工作:node>= 12.0.0 npm>=6.14.4 yarn最新即可 docker与PM2等看自己需求
 
 ## 目录
 - [界面预览](#界面预览)
@@ -34,7 +36,7 @@
 ![移动端](./preview_3.png)
 
 ## 在线实例
-我的博客 [https://skysun.name/](https://skysun.name/)
+- 大佬博客 [https://skysun.name/](https://skysun.name/) 我的[博客](http://excesama.fun)
 
 ## 分支说明
 * 当前分支 (v2.0.0) 基于 [TypeScript](https://www.typescriptlang.org/) + [NuxtJS](https://nuxtjs.org/)
@@ -57,6 +59,11 @@
 
 安装 [Node.js](https://nodejs.org/en/download/) (v8 以上版本)、[MongoDB](https://www.mongodb.org/downloads/)。  
 推荐安装 [Yarn](https://yarnpkg.com/) 而非 npm 以进行包管理。
+
+### yarn下载
+```
+npm install -g yarn
+```
 
 ### 安装依赖
 ```Shell
